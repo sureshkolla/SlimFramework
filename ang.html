@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body id="body">
+<style>
+button{width:50px;height:20px;flaot:left;margin:10px}
+</style>
+<p>Click the button to make a BUTTON element.</p>
+
+<button onclick="myFunction()">Try it</button>
+<button onclick="style1()">color</button>
+
+<script>
+function myFunction() {
+    var btn = document.createElement("BUTTON");
+    btn.value = "hai"; 
+    document.body.appendChild(btn);
+}
+function style1() {  
+	 
+      document.getElementById("body").style.background="yellow";
+      
+}
+</script>
+
+</body>
+</html>
